@@ -1,0 +1,18 @@
+﻿<Window x:Class="JasenrekisteriNoSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JasenrekisteriNoSQL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="1000">
+    <Grid Width="1000">
+        <Label x:Name="OtsikkoLbl" Content="Jäsenrekisteri" HorizontalAlignment="Center" Height="66" Margin="0,27,0,0" VerticalAlignment="Top" Width="236" FontSize="36"/>
+        <Button x:Name="CreateBtn" Content="Lisää" HorizontalAlignment="Left" Height="46" Margin="29,114,0,0" VerticalAlignment="Top" Width="127" Click="CreateBtn_Click"/>
+        <Button x:Name="RegisterBtn" Content="Näytä rekisteri" HorizontalAlignment="Left" Height="46" Margin="537,114,0,0" VerticalAlignment="Top" Width="127" Click="RegisterBtn_Click"/>
+        <Button x:Name="UpdateBtn" Content="Muokkaa" HorizontalAlignment="Left" Height="46" Margin="197,114,0,0" VerticalAlignment="Top" Width="127"/>
+        <Button x:Name="DeleteBtn" Content="Poista" HorizontalAlignment="Left" Height="46" Margin="366,114,0,0" VerticalAlignment="Top" Width="128"/>
+        <Frame x:Name="Page" Content="" HorizontalAlignment="Center" Height="270" Margin="0,185,0,0" VerticalAlignment="Top" Width="950"/>
+
+    </Grid>
+</Window>
