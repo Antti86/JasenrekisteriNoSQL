@@ -7,12 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="1000">
     <Grid Width="1000">
-        <Label x:Name="OtsikkoLbl" Content="Jäsenrekisteri" HorizontalAlignment="Center" Height="66" Margin="0,27,0,0" VerticalAlignment="Top" Width="236" FontSize="36"/>
-        <Button x:Name="CreateBtn" Content="Lisää" HorizontalAlignment="Left" Height="46" Margin="29,114,0,0" VerticalAlignment="Top" Width="127" Click="CreateBtn_Click"/>
-        <Button x:Name="RegisterBtn" Content="Näytä rekisteri" HorizontalAlignment="Left" Height="46" Margin="537,114,0,0" VerticalAlignment="Top" Width="127" Click="RegisterBtn_Click"/>
-        <Button x:Name="UpdateBtn" Content="Muokkaa" HorizontalAlignment="Left" Height="46" Margin="197,114,0,0" VerticalAlignment="Top" Width="127"/>
-        <Button x:Name="DeleteBtn" Content="Poista" HorizontalAlignment="Left" Height="46" Margin="366,114,0,0" VerticalAlignment="Top" Width="128"/>
-        <Frame x:Name="Page" Content="" HorizontalAlignment="Center" Height="270" Margin="0,185,0,0" VerticalAlignment="Top" Width="950"/>
+        <Label x:Name="OtsikkoLbl" Content="Jäsenrekisteri" HorizontalAlignment="Left" Height="66" Margin="222,10,0,0" VerticalAlignment="Top" Width="236" FontSize="36"/>
+        <Button x:Name="CreateBtn" Content="Lisää" HorizontalAlignment="Left" Height="46" Margin="60,86,0,0" VerticalAlignment="Top" Width="127" Click="CreateBtn_Click"/>
+        <Button x:Name="RegisterBtn" Content="Näytä rekisteri" HorizontalAlignment="Left" Height="46" Margin="478,86,0,0" VerticalAlignment="Top" Width="127" Click="RegisterBtn_Click"/>
+        <Frame x:Name="Page" Content="" HorizontalAlignment="Center" Height="319" Margin="0,155,0,0" VerticalAlignment="Top" Width="950" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Window>

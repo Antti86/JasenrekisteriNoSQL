@@ -8,7 +8,9 @@
       d:DesignHeight="270" d:DesignWidth="950"
       Title="Register">
 
-    <Grid Width="950" Height="270" Background="White">
-        <DataGrid x:Name="RegisterDG" HorizontalAlignment="Center" Height="250" VerticalAlignment="Center" Width="930" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    <Grid x:Name="PageGrid" Width="950" Height="270" Background="White" Loaded="PageGrid_Loaded">
+        <DataGrid x:Name="RegisterDG" HorizontalAlignment="Center" Height="186" VerticalAlignment="Top" Width="930" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,74,0,0"/>
+        <Button x:Name="UpdateBtn" Content="Muokkaa" HorizontalAlignment="Left" Height="49" Margin="43,15,0,0" VerticalAlignment="Top" Width="104" Click="UpdateBtn_Click"/>
+        <Button x:Name="DeleteBtn" Content="Poista" HorizontalAlignment="Left" Height="49" Margin="464,15,0,0" VerticalAlignment="Top" Width="104" Click="DeleteBtn_Click"/>
     </Grid>
 </Page>

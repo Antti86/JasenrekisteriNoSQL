@@ -8,5 +8,21 @@
       d:DesignHeight="270" d:DesignWidth="950"
       Title="AddMember">
 
-    <Grid Background="White"/>
+    <Grid Background="White">
+        <Button x:Name="SaveBtn" Content="Tallenna" HorizontalAlignment="Left" Height="49" Margin="464,192,0,0" VerticalAlignment="Top" Width="94" Click="SaveBtn_Click"/>
+        <TextBox x:Name="EtunimiTxB" HorizontalAlignment="Left" Height="28" Margin="21,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <Label x:Name="EtunimiLbl" Content="Etunimi" HorizontalAlignment="Left" Height="29" Margin="21,20,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="SukunimiTxB" HorizontalAlignment="Left" Height="28" Margin="21,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <Label x:Name="SukunimiLbl" Content="Sukunimi" HorizontalAlignment="Left" Height="29" Margin="21,97,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="OsoiteTxB" HorizontalAlignment="Left" Height="28" Margin="21,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <Label x:Name="OsoiteLbl" Content="Osoite" HorizontalAlignment="Left" Height="30" Margin="21,179,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="PostinumeroTxB" HorizontalAlignment="Left" Height="28" Margin="241,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <Label x:Name="PostinumeroLbl" Content="Postinumero" HorizontalAlignment="Left" Height="30" Margin="241,20,0,0" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="PuhelinnumeroTxB" HorizontalAlignment="Left" Height="28" Margin="241,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <Label x:Name="PuhelinnumeroLbl" Content="Puhelinnumero" HorizontalAlignment="Left" Height="30" Margin="241,97,0,0" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="SahkopostiTxB" HorizontalAlignment="Left" Height="28" Margin="241,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <Label x:Name="SahkopostiLbl" Content="Sähköposti" HorizontalAlignment="Left" Height="30" Margin="241,179,0,0" VerticalAlignment="Top" Width="171"/>
+        <DatePicker x:Name="AlkuPvmDP" HorizontalAlignment="Left" Margin="456,56,0,0" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="ALkuPvmLbl" Content="Jäsenyyden alku Pvm" HorizontalAlignment="Left" Height="30" Margin="456,21,0,0" VerticalAlignment="Top" Width="171"/>
+    </Grid>
 </Page>

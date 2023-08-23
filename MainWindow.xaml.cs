@@ -20,8 +20,12 @@ namespace JasenrekisteriNoSQL
     /// </summary>
     public partial class MainWindow : Window
     {
-        readonly Register register = new();
-        readonly AddMember addMember = new();
+        public static Register register = new();
+        public static AddMember addMember = new();
+
+        public static readonly string cosmosUrl = "Lisää tämän tekstin tilalle cosmos tietokannan Url osoite";
+
+        public static readonly string cosmosKey = "Lisää tämän tekstin tilalle cosmos tietokannan pääavain";
         public MainWindow()
         {
             InitializeComponent();
@@ -37,5 +41,6 @@ namespace JasenrekisteriNoSQL
         {
             Page.NavigationService.Navigate(register);
         }
+
     }
 }
